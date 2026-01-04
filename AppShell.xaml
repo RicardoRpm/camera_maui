@@ -3,12 +3,12 @@
     x:Class="camera_maui.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:camera_maui"
+    xmlns:local="clr-namespace:camera_maui.Views"
     Title="camera_maui">
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
+        ContentTemplate="{DataTemplate local:CameraView}"
         Route="MainPage" />
 
 </Shell>
