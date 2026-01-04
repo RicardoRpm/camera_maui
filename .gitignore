@@ -1,0 +1,109 @@
+# =========================
+# Build results
+# =========================
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# =========================
+# Visual Studio Code
+# =========================
+.vscode/
+.history/
+
+# =========================
+# Rider / JetBrains
+# =========================
+.idea/
+*.sln.iml
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# =========================
+# .NET
+# =========================
+*.pdb
+*.mdb
+*.cache
+*.tmp
+*.log
+
+# =========================
+# NuGet
+# =========================
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# =========================
+# Android (.NET MAUI)
+# =========================
+**/Android/bin/
+**/Android/obj/
+**/*.apk
+**/*.aab
+**/*.keystore
+**/*.jks
+
+# Android signing
+key.properties
+
+# =========================
+# iOS (.NET MAUI)
+# =========================
+**/iOS/bin/
+**/iOS/obj/
+**/*.app
+**/*.ipa
+**/*.dSYM/
+
+# =========================
+# Mac Catalyst
+# =========================
+**/MacCatalyst/bin/
+**/MacCatalyst/obj/
+
+# =========================
+# Windows (.NET MAUI)
+# =========================
+**/Windows/bin/
+**/Windows/obj/
+
+# =========================
+# Logs & temp
+# =========================
+*.log
+*.bak
+*.tmp
+*.temp
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+secrets.json
+appsettings.Development.json
+
+# =========================
+# Publish
+# =========================
+publish/
